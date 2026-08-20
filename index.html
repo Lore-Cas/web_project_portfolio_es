@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio personal de Lorena Castán, desarrolladora web Full-Stack."
+    />
+    <title>Lorena Castán | Desarrolladora Web</title>
+    <link rel="icon" href="images/profilefoto.jpeg" type="image/webp" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <main class="portfolio">
+      <section class="profile" aria-labelledby="profile-title">
+        <div class="profile__content">
+          <h1 id="profile-title">Lorena Castán</h1>
+          <p class="profile__role">
+            Desarrolladora Full-Stack junior | TypeScript, React, Node.js
+          </p>
+          <p class="profile__description">
+            Desarrolladora web junior con experiencia práctica creando
+            interfaces limpias y responsivas con HTML, CSS, JavaScript y React,
+            así como implementando lógica básica de back-end. He trabajado en
+            proyectos formativos que siguen buenas prácticas de desarrollo y
+            diseño. GitHub y Figma. Disfruto colaborar en equipo, mantener un
+            código claro y resolver problemas de forma estructurada. Motiva dar
+            seguridad aprendiendo, asumir nuevos retos y aprovechar
+            oportunidades para crecer como desarrolladora.
+          </p>
+
+          <nav class="profile__links" aria-label="Enlaces principales">
+            <a href="#contacto">Descargar CV</a>
+            <a
+              href="https://github.com/Lore-Cas"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Enlace a GitHub</a
+            >
+            <a href="#contacto">Hablemos</a>
+          </nav>
+        </div>
+
+        <img
+          class="profile__photo"
+          src="images/profilefoto.jpeg"
+          alt="Foto de perfil Lorena Castán"
+        />
+      </section>
+
+      <section class="skills" aria-labelledby="skills-title">
+        <h2 id="skills-title">Habilidades y herramientas</h2>
+        <ul class="skills__list">
+          <li><img src="images/html5.png" alt="HTML5" /></li>
+          <li><img src="images/css3.png" alt="CSS3" /></li>
+          <li><img src="images/jabascript.png" alt="JavaScript" /></li>
+          <li><img src="images/git.png" alt="Git" /></li>
+          <li><img src="images/github.png" alt="GitHub" /></li>
+          <li><img src="images/chatgpt.png" alt="ChatGPT" /></li>
+        </ul>
+      </section>
+
+      <section class="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Proyectos destacados</h2>
+
+        <div class="projects__grid">
+          <article class="project-card">
+            <div class="project-card__image">
+              <img
+                src="images/cafetriplepeaks.webp"
+                alt="Vista previa de la página web de la cafetería Triple Peaks"
+              />
+              <div class="project-card__overlay" aria-hidden="true"></div>
+              <ul
+                class="project-card__technologies"
+                aria-label="Tecnologías del proyecto"
+              >
+                <li><img src="images/html5.png" alt="HTML5" /></li>
+                <li><img src="images/css3.png" alt="CSS3" /></li>
+              </ul>
+            </div>
+            <div class="project-card__body">
+              <h3>Página web de una cafetería</h3>
+              <p>
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, animación de enlaces, creación de
+                secciones nuevas y un formulario de contacto funcional.
+              </p>
+              <p>
+                Logro: implementé desde cero el diseño completo de la página,
+                organicé el proyecto con buenas prácticas y publiqué la versión
+                final utilizando GitHub Pages.
+              </p>
+              <div class="project-card__links">
+                <a
+                  href="https://lore-cas.github.io/web_project_coffeeshop_es/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Demo en vivo</a
+                >
+                <a
+                  href="https://github.com/Lore-Cas/web_project_coffeeshop_es"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image">
+              <img
+                src="images/miproyecto.webp"
+                alt="Vista previa de un proyecto web con una ventana de código"
+              />
+              <div class="project-card__overlay" aria-hidden="true"></div>
+              <ul
+                class="project-card__technologies"
+                aria-label="Tecnologías del proyecto"
+              >
+                <li><img src="images/jabascript.png" alt="JavaScript" /></li>
+                <li>
+                  <img src="images/reactnative.png" alt="ReactiveNative" />
+                </li>
+              </ul>
+            </div>
+            <div class="project-card__body">
+              <h3>Mi proyecto</h3>
+              <p>Descripción del proyecto</p>
+              <div class="project-card__links">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Demo en vivo</a
+                >
+                <a
+                  href="https://github.com/Lore-Cas/web_project_portfolio_es"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <footer class="contact" id="contacto">
+        <h2>Contacto</h2>
+        <a class="contact__email" href="mailto:student@tripleten.com"
+          >lore_castan@hotmail.com</a
+        >
+        <ul class="social" aria-label="Redes sociales">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/lorena-castan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/linkedin.png" alt="LinkedIn"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/lorecastan"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/facebook.png" alt="Facebook"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/lore_caszo"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/instagram.png" alt="Instagram"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/twitter.png" alt="X"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>
